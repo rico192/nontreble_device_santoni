@@ -49,3 +49,7 @@ PRODUCT_COPY_FILES += \
 
 # Inherit proprietary files
 $(call inherit-product, vendor/xiaomi/santoni/santoni-vendor.mk)
+
+# XiaomiParts
+PRODUCT_PACKAGES += \
+    XiaomiParts
