@@ -14,7 +14,8 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_santoni.mk
+    $(LOCAL_DIR)/du_santoni.mk
 
 COMMON_LUNCH_CHOICES := \
-	lineage_santoni-userdebug
+	du_santoni-userdebug
+        du_santoni-user
