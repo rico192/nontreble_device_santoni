@@ -18,4 +18,3 @@ PRODUCT_MAKEFILES := \
 
 COMMON_LUNCH_CHOICES := \
 	du_santoni-userdebug
-        du_santoni-user
