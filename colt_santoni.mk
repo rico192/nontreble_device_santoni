@@ -26,12 +26,12 @@ $(call inherit-product, vendor/colt/config/common.mk)
 # Inherit from santoni device
 $(call inherit-product, device/xiaomi/santoni/device.mk)
 
-TARGET_BOOT_ANIMATION_RES := 720x1280 : Please change as per your device resolution
+TARGET_BOOT_ANIMATION_RES := 720x1280
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 4X
 PRODUCT_DEVICE := santoni
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_NAME := du_santoni
+PRODUCT_NAME := colt_santoni
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
