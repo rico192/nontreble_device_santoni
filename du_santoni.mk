@@ -21,6 +21,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_m.mk)
 
 # Inherit some common Lineage stuff
+DEVICE_MAINTAINERS="rico192"
 $(call inherit-product, vendor/du/config/common_full_phone.mk)
 
 # Inherit from santoni device
