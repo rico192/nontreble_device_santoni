@@ -21,7 +21,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_m.mk)
 
 # Inherit some common Lineage stuff
-$(call inherit-product, vendor/du/config/common_full_phone.mk)
+$(call inherit-product, vendor/hentai/config/common_full_phone.mk)
 
 # Inherit from santoni device
 $(call inherit-product, device/xiaomi/santoni/device.mk)
@@ -30,7 +30,7 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 4X
 PRODUCT_DEVICE := santoni
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_NAME := du_santoni
+PRODUCT_NAME := hentai_santoni
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
