@@ -1,2 +1,0 @@
-allow hal_keymaster_qti system_file:file { execute r_file_perms };
-
