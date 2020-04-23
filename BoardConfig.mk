@@ -17,7 +17,7 @@
 
 DEVICE_PATH := device/xiaomi/santoni
 
-VENDOR_PATH := device/xiaomi/santoni
+VENDOR_PATH := device/xiaomi/msm8937-common
 
 # Build
 BUILD_BROKEN_DUP_RULES := true
